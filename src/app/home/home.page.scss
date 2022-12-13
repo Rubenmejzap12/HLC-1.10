@@ -25,3 +25,52 @@
 #container a {
   text-decoration: none;
 }
+
+@media screen and (max-width: 2000px) and (min-width: 600px) {
+  ion-input {
+    background-color: rgb(0, 228, 209);
+  }
+
+  #forma1 {
+    color: rgb(21, 2, 189);
+  }
+
+  #forma2 {
+    color: rgb(0, 162, 255);
+  }
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+  ion-input {
+    background-color: rgb(255, 0, 0);
+  }
+
+  #forma1 {
+    color: rgb(236, 55, 55);
+  }
+
+  #forma2 {
+    color: rgb(255, 101, 101);
+  }
+}
+
+@media screen and (max-width: 500px) and (min-width: 200px) {
+  ion-input {
+    background-color: green;
+  }
+
+  #forma1 {
+    color: rgb(179, 255, 0);
+  }
+
+  #forma2 {
+    color: rgba(0, 255, 42, 0.808);
+  }
+}
+
+@media (orientation: landscape){
+  .boton{
+    display: none;
+  }
+
+}
